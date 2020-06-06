@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C6818A248C116100DFBB79 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C68189248C116000DFBB79 /* CoreServices.framework */; };
 		D98DD8CE1F36DD0800582F3B /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D98DD8A71F36DD0800582F3B /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D98DD8CF1F36DD0800582F3B /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D98DD8A81F36DD0800582F3B /* YYCache.m */; };
 		D98DD8D01F36DD0800582F3B /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D98DD8A91F36DD0800582F3B /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,13 +50,12 @@
 		D98DD8F91F36DD6B00582F3B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98DD8F81F36DD6B00582F3B /* ImageIO.framework */; };
 		D98DD8FB1F36DD6F00582F3B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98DD8FA1F36DD6F00582F3B /* QuartzCore.framework */; };
 		D98DD8FD1F36DD7300582F3B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98DD8FC1F36DD7300582F3B /* Accelerate.framework */; };
-		D98DD8FF1F36DD7700582F3B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98DD8FE1F36DD7700582F3B /* AssetsLibrary.framework */; };
-		D98DD9011F36DD7D00582F3B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98DD9001F36DD7D00582F3B /* MobileCoreServices.framework */; };
 		D98DD9031F36DD8100582F3B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D98DD9021F36DD8100582F3B /* libz.tbd */; };
 		D98DD9051F36DD8500582F3B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D98DD9041F36DD8500582F3B /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01C68189248C116000DFBB79 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		D9312D061F36DC820055FE6D /* YYWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9312D0A1F36DC820055FE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98DD8A71F36DD0800582F3B /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
@@ -113,8 +113,7 @@
 			files = (
 				D98DD9051F36DD8500582F3B /* libsqlite3.tbd in Frameworks */,
 				D98DD9031F36DD8100582F3B /* libz.tbd in Frameworks */,
-				D98DD9011F36DD7D00582F3B /* MobileCoreServices.framework in Frameworks */,
-				D98DD8FF1F36DD7700582F3B /* AssetsLibrary.framework in Frameworks */,
+				01C6818A248C116100DFBB79 /* CoreServices.framework in Frameworks */,
 				D98DD8FD1F36DD7300582F3B /* Accelerate.framework in Frameworks */,
 				D98DD8FB1F36DD6F00582F3B /* QuartzCore.framework in Frameworks */,
 				D98DD8F91F36DD6B00582F3B /* ImageIO.framework in Frameworks */,
@@ -215,6 +214,7 @@
 		D98DD8F31F36DD5E00582F3B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01C68189248C116000DFBB79 /* CoreServices.framework */,
 				D9312D0A1F36DC820055FE6D /* Info.plist */,
 				D98DD9041F36DD8500582F3B /* libsqlite3.tbd */,
 				D98DD9021F36DD8100582F3B /* libz.tbd */,
