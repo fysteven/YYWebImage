@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C6818A248C116100DFBB79 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C68189248C116000DFBB79 /* CoreServices.framework */; };
 		D98DD8CE1F36DD0800582F3B /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D98DD8A71F36DD0800582F3B /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D98DD8CF1F36DD0800582F3B /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D98DD8A81F36DD0800582F3B /* YYCache.m */; };
 		D98DD8D01F36DD0800582F3B /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D98DD8A91F36DD0800582F3B /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -113,7 +112,6 @@
 			files = (
 				D98DD9051F36DD8500582F3B /* libsqlite3.tbd in Frameworks */,
 				D98DD9031F36DD8100582F3B /* libz.tbd in Frameworks */,
-				01C6818A248C116100DFBB79 /* CoreServices.framework in Frameworks */,
 				D98DD8FD1F36DD7300582F3B /* Accelerate.framework in Frameworks */,
 				D98DD8FB1F36DD6F00582F3B /* QuartzCore.framework in Frameworks */,
 				D98DD8F91F36DD6B00582F3B /* ImageIO.framework in Frameworks */,

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.private_header_files = 'YYWebImage/Categories/_*.{h}'
   s.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'ImageIO', 'Accelerate', 'CoreServices'
   
-  s.dependency 'YYImage'
+  s.dependency 'YYImage_2020'
   s.dependency 'YYCache'
   
 end
